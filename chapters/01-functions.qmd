@@ -2,14 +2,37 @@
 title: "Introduction"
 ---
 
-# Introduction
+# Practicing combining AND, OR, IF files
 
-Welcome to Chapter 1.
+Files: grades_levelup.xlsx
 
-This is the introduction to the book.
+## question 1
 
-## A section
+calcuating extra points:
 
-Some text here.
+1\. 10 extra points for students who get less than 50 in test 1 and major either in Finance or acounting,
 
-\`\`\`{r} plot(cars)
+2\. 5 extra points for the rest of the students who major either in finance or accounting,
+
+3\. 0 otherwise
+
+## question 2
+
+1.  10 points for two group of students: students major in management, or students who major in marketing and get at least 80 in test 2,
+2.  5 points for students who major in accounting
+3.  0 otherwise
+
+## question 3
+
+1.  10 points for students who do not major in accounting or for students who get more than 80 in test 3
+2.  0 otherwise
+
+## question 4
+
+give students PASS if they get at least 60 in at least 2 out of the six tests, Fail otherwise
+
+hit: questions like this can be answered using COUNTIFS function or LARGE/SMALL function
+
+## question 5
+
+find out the number of students who major in finance and get less than 60 in test1
