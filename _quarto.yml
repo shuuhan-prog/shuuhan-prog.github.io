@@ -1,21 +1,24 @@
 project:
-  type: website
+  type: book
   output-dir: docs
-website:
+  
+  
+book: 
   title: "Business Analytics"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+
+  author: "Shu Han"
+  chapters:
+    - index.qmd
+    - chapters/01-intro.qmd
+    - chapters/02-methods.qmd
+    - chapters/03-results.qmd
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
     toc: true
-
-editor: visual
+    number-sections: true
+    theme: cosmo
+  epub: default
+  pdf:
+    documentclass: scrbook
 
