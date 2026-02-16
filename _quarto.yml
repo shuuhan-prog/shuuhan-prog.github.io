@@ -4,14 +4,13 @@ project:
   
   
 book: 
-  title: "Business Analytics"
+   title: "Business Analytics"
 
-  author: "Shu Han"
-  chapters:
+   author: "Shu Han"
+   chapters:
     - index.qmd
-    - chapters/01-intro.qmd
-    - chapters/02-methods.qmd
-    - chapters/03-results.qmd
+    - chapters/01-functions.qmd
+  
 
 format:
   html:

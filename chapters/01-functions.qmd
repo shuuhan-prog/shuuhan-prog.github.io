@@ -1,0 +1,15 @@
+---
+title: "Introduction"
+---
+
+# Introduction
+
+Welcome to Chapter 1.
+
+This is the introduction to the book.
+
+## A section
+
+Some text here.
+
+\`\`\`{r} plot(cars)
