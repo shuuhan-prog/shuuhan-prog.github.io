@@ -10,6 +10,7 @@ book:
    chapters:
     - index.qmd
     - chapters/01-functions.qmd
+    - chapters/02-summary_statstics_functions.qmd
   
 
 format:

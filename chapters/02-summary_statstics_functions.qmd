@@ -1,0 +1,22 @@
+---
+title: "02-summary_statstics_functions"
+format: html
+---
+
+# Summary statistics functions
+
+This is a group of functions that summarize the characteristics of a GROUP based on certain conditions.
+
+### COUNTIFS AVERAGEIFS SUMIFS MAXIFS MINIFS
+
+#1 find out the number of students who major in finance and get less than 60 in test1
+
+#2 find out the number of students who get between 80 and 90 in test 4 (exclusive of 80 and 90)?
+
+#3 find out the average of test 3 of all students who major in management
+
+#4 find out the average of test 3 of all students who major in management and who get at least 60 in test 2
+
+#5 find out the average of test 1 score of all students who major in management or marketing
+
+#6 find out the number of students whose test 2 score is either more than 80 or less than 50

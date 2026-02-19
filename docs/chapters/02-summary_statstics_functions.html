@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; Practicing combining AND, OR, IF files – Business Analytics</title>
+<title>3&nbsp; 02-summary_statstics_functions – Business Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../chapters/02-summary_statstics_functions.html" rel="next">
-<link href="../index.html" rel="prev">
+<link href="../chapters/01-functions.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -82,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/01-functions.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Practicing combining AND, OR, IF files</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/02-summary_statstics_functions.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">02-summary_statstics_functions</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -115,13 +114,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/01-functions.html" class="sidebar-item-text sidebar-link active">
+  <a href="../chapters/01-functions.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Practicing combining AND, OR, IF files</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/02-summary_statstics_functions.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/02-summary_statstics_functions.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">02-summary_statstics_functions</span></span></a>
   </div>
 </li>
@@ -135,13 +134,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#practicing-combining-and-or-if-files" id="toc-practicing-combining-and-or-if-files" class="nav-link active" data-scroll-target="#practicing-combining-and-or-if-files"><span class="header-section-number">3</span> Practicing combining AND, OR, IF files</a>
+  <li><a href="#summary-statistics-functions" id="toc-summary-statistics-functions" class="nav-link active" data-scroll-target="#summary-statistics-functions"><span class="header-section-number">4</span> Summary statistics functions</a>
   <ul class="collapse">
-  <li><a href="#question-1" id="toc-question-1" class="nav-link" data-scroll-target="#question-1"><span class="header-section-number">3.1</span> question 1</a></li>
-  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2"><span class="header-section-number">3.2</span> question 2</a></li>
-  <li><a href="#question-3" id="toc-question-3" class="nav-link" data-scroll-target="#question-3"><span class="header-section-number">3.3</span> question 3</a></li>
-  <li><a href="#question-4" id="toc-question-4" class="nav-link" data-scroll-target="#question-4"><span class="header-section-number">3.4</span> question 4</a></li>
-  <li><a href="#question-5" id="toc-question-5" class="nav-link" data-scroll-target="#question-5"><span class="header-section-number">3.5</span> question 5</a></li>
+  <li><a href="#countifs-averageifs-sumifs-maxifs-minifs" id="toc-countifs-averageifs-sumifs-maxifs-minifs" class="nav-link" data-scroll-target="#countifs-averageifs-sumifs-maxifs-minifs"><span class="header-section-number">4.0.1</span> COUNTIFS AVERAGEIFS SUMIFS MAXIFS MINIFS</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -151,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Practicing combining AND, OR, IF files</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">02-summary_statstics_functions</span></h1>
 </div>
 
 
@@ -168,39 +163,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="practicing-combining-and-or-if-files" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Practicing combining AND, OR, IF files</h1>
-<p>Files: grades_levelup.xlsx</p>
-<section id="question-1" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="question-1"><span class="header-section-number">3.1</span> question 1</h2>
-<p>calcuating extra points:</p>
-<p>1. 10 extra points for students who get less than 50 in test 1 and major either in Finance or acounting,</p>
-<p>2. 5 extra points for the rest of the students who major either in finance or accounting,</p>
-<p>3. 0 otherwise</p>
-</section>
-<section id="question-2" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="question-2"><span class="header-section-number">3.2</span> question 2</h2>
-<ol type="1">
-<li>10 points for two group of students: students major in management, or students who major in marketing and get at least 80 in test 2,</li>
-<li>5 points for students who major in accounting</li>
-<li>0 otherwise</li>
-</ol>
-</section>
-<section id="question-3" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="question-3"><span class="header-section-number">3.3</span> question 3</h2>
-<ol type="1">
-<li>10 points for students who do not major in accounting or for students who get more than 80 in test 3</li>
-<li>0 otherwise</li>
-</ol>
-</section>
-<section id="question-4" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="question-4"><span class="header-section-number">3.4</span> question 4</h2>
-<p>give students PASS if they get at least 60 in at least 2 out of the six tests, Fail otherwise</p>
-<p>hit: questions like this can be answered using COUNTIFS function or LARGE/SMALL function</p>
-</section>
-<section id="question-5" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="question-5"><span class="header-section-number">3.5</span> question 5</h2>
-<p>find out the number of students who major in finance and get less than 60 in test1</p>
+<section id="summary-statistics-functions" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Summary statistics functions</h1>
+<p>This is a group of functions that summarize the characteristics of a GROUP based on certain conditions.</p>
+<section id="countifs-averageifs-sumifs-maxifs-minifs" class="level3" data-number="4.0.1">
+<h3 data-number="4.0.1" class="anchored" data-anchor-id="countifs-averageifs-sumifs-maxifs-minifs"><span class="header-section-number">4.0.1</span> COUNTIFS AVERAGEIFS SUMIFS MAXIFS MINIFS</h3>
+<p>#1 find out the number of students who major in finance and get less than 60 in test1</p>
+<p>#2 find out the number of students who get between 80 and 90 in test 4 (exclusive of 80 and 90)?</p>
+<p>#3 find out the average of test 3 of all students who major in management</p>
+<p>#4 find out the average of test 3 of all students who major in management and who get at least 60 in test 2</p>
+<p>#5 find out the average of test 1 score of all students who major in management or marketing</p>
+<p>#6 find out the number of students whose test 2 score is either more than 80 or less than 50</p>
 
 
 </section>
@@ -608,14 +581,11 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../index.html" class="pagination-link" aria-label="Introduction to Business Analytics">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Business Analytics</span></span>
+      <a href="../chapters/01-functions.html" class="pagination-link" aria-label="Practicing combining AND, OR, IF files">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Practicing combining AND, OR, IF files</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/02-summary_statstics_functions.html" class="pagination-link" aria-label="02-summary_statstics_functions">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">02-summary_statstics_functions</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

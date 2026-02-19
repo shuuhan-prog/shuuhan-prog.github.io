@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Practicing combining AND, OR, IF files"
 ---
 
 # Practicing combining AND, OR, IF files
