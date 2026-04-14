@@ -11,6 +11,7 @@ book:
     - index.qmd
     - chapters/01-functions.qmd
     - chapters/02-summary_statstics_functions.qmd
+    - chapters/03-dashboard_xlookup.qmd
   
 
 format:
