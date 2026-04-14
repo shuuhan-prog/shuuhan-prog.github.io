@@ -1,0 +1,34 @@
+---
+title: "02-creating BA dashboard using XLOOKUP"
+format: html
+---
+
+## dashboard
+
+An app/interface where end users are able to see the key parameters and analysis in one place.
+
+we will create a dashboard for a sales manager based on historical sales data in the previous years and in different geographical regions. The starting file is creating_dashboard.xlsx
+
+The white cells are where the end users enter the year/region of interest and your job is to fill the formula in the yellow cells to show the sales or statsitics.
+
+#1 find out the sales of any region (specified by the user) in year of 2015 you only need to use one XLOOKUP function
+
+#2 find out sales of any year in the south region you only need to use one XLOOKUP function
+
+#3 find out the sales in any region and any year you need two XLOOKUP function to solve this
+
+#4 find out the average sales in any year combining AVERGE function and XLOOKUP function
+
+#5 find out the year when sales is the highest for any region spedified by the user the outcome of the XLOOKUP function is year here, which is different from questions 1-4
+
+###key take-way on XLOOKUP function
+
+#1 the lookup value and lookup array should be the same thing in nature, meaning matching year to a group of years, a region to a group of regions
+
+#2 the lookup array is always a single row or column
+
+#3 the return array can be a signle row/column or a matrix
+
+-   if the return array can be a signle row/column, the outcome of the function is a single value
+
+-   if the return array can be a matrix, the outcome of the function is a row or a column.
