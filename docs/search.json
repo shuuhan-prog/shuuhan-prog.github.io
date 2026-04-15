@@ -1,0 +1,102 @@
+[
+  {
+    "objectID": "chapters/03-dashboard_xlookup.html",
+    "href": "chapters/03-dashboard_xlookup.html",
+    "title": "4  creating BA dashboard using XLOOKUP",
+    "section": "",
+    "text": "4.1 dashboard\nAn app/interface where end users are able to see the key parameters and analysis in one place.\nwe will create a dashboard for a sales manager based on historical sales data in the previous years and in different geographical regions.\nThe starting file is creating_dashboard.xlsx\nThe white cells are where the end users enter the year/region of interest and your job is to fill the formula in the yellow cells to show the sales or statistics.\n#1 find out the sales of any region (specified by the user) in year of 2015 you only need to use one XLOOKUP function\n#2 find out sales of any year in the south region you only need to use one XLOOKUP function\n#3 find out the sales in any region and any year you need two XLOOKUP function to solve this\n#4 find out the average sales in any year combining AVERGE function and XLOOKUP function\n#5 find out the year when sales is the highest for any region specified by the user the outcome of the XLOOKUP function is year here, which is different from questions 1-4",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>creating BA dashboard using XLOOKUP</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/03-dashboard_xlookup.html#key-take-way-on-xlookup-function",
+    "href": "chapters/03-dashboard_xlookup.html#key-take-way-on-xlookup-function",
+    "title": "4  creating BA dashboard using XLOOKUP",
+    "section": "4.2 key take-way on XLOOKUP function",
+    "text": "4.2 key take-way on XLOOKUP function\n#1 the lookup value and lookup array should be the same thing in nature, meaning matching year to a group of years, a region to a group of regions\n#2 the lookup array is always a single row or column\n#3 the return array can be a single row/column or a matrix\n\nif the return array is a single row/column, the outcome of the function is a single value\nif the return array is a matrix, the outcome of the function is a row or a column.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>creating BA dashboard using XLOOKUP</span>"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Business Analytics",
+    "section": "",
+    "text": "“Welcome and have fun!”",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Business Analytics</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-functions.html",
+    "href": "chapters/01-functions.html",
+    "title": "2  Practicing combining AND, OR, IF files",
+    "section": "",
+    "text": "3 Practicing combining AND, OR, IF files\nFiles: grades_levelup.xlsx",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Practicing combining AND, OR, IF files</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-functions.html#question-1",
+    "href": "chapters/01-functions.html#question-1",
+    "title": "2  Practicing combining AND, OR, IF files",
+    "section": "3.1 question 1",
+    "text": "3.1 question 1\ncalcuating extra points:\n1. 10 extra points for students who get less than 50 in test 1 and major either in Finance or acounting,\n2. 5 extra points for the rest of the students who major either in finance or accounting,\n3. 0 otherwise",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Practicing combining AND, OR, IF files</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-functions.html#question-2",
+    "href": "chapters/01-functions.html#question-2",
+    "title": "2  Practicing combining AND, OR, IF files",
+    "section": "3.2 question 2",
+    "text": "3.2 question 2\n\n10 points for two group of students: students major in management, or students who major in marketing and get at least 80 in test 2,\n5 points for students who major in accounting\n0 otherwise",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Practicing combining AND, OR, IF files</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-functions.html#question-3",
+    "href": "chapters/01-functions.html#question-3",
+    "title": "2  Practicing combining AND, OR, IF files",
+    "section": "3.3 question 3",
+    "text": "3.3 question 3\n\n10 points for students who do not major in accounting or for students who get more than 80 in test 3\n0 otherwise",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Practicing combining AND, OR, IF files</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-functions.html#question-4",
+    "href": "chapters/01-functions.html#question-4",
+    "title": "2  Practicing combining AND, OR, IF files",
+    "section": "3.4 question 4",
+    "text": "3.4 question 4\ngive students PASS if they get at least 60 in at least 2 out of the six tests, Fail otherwise\nhit: questions like this can be answered using COUNTIFS function or LARGE/SMALL function",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Practicing combining AND, OR, IF files</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-functions.html#question-5",
+    "href": "chapters/01-functions.html#question-5",
+    "title": "2  Practicing combining AND, OR, IF files",
+    "section": "3.5 question 5",
+    "text": "3.5 question 5\nfind out the number of students who major in finance and get less than 60 in test1",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Practicing combining AND, OR, IF files</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-summary_statstics_functions.html",
+    "href": "chapters/02-summary_statstics_functions.html",
+    "title": "3  02-summary_statstics_functions",
+    "section": "",
+    "text": "4 Summary statistics functions\nThis is a group of functions that summarize the characteristics of a GROUP based on certain conditions.\n\n4.0.1 COUNTIFS AVERAGEIFS SUMIFS MAXIFS MINIFS\n#1 find out the number of students who major in finance and get less than 60 in test1\n#2 find out the number of students who get between 80 and 90 in test 4 (exclusive of 80 and 90)?\n#3 find out the average of test 3 of all students who major in management\n#4 find out the average of test 3 of all students who major in management and who get at least 60 in test 2\n#5 find out the average of test 1 score of all students who major in management or marketing\n#6 find out the number of students whose test 2 score is either more than 80 or less than 50",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>02-summary_statstics_functions</span>"
+    ]
+  }
+]

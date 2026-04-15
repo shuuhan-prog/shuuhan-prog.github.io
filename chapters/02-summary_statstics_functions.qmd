@@ -1,5 +1,5 @@
 ---
-title: "02-summary_statstics_functions"
+title: "summary_statstics_functions"
 format: html
 ---
 
