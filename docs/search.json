@@ -92,11 +92,31 @@
   {
     "objectID": "chapters/02-summary_statstics_functions.html",
     "href": "chapters/02-summary_statstics_functions.html",
-    "title": "3  02-summary_statstics_functions",
+    "title": "3  summary_statstics_functions",
     "section": "",
     "text": "4 Summary statistics functions\nThis is a group of functions that summarize the characteristics of a GROUP based on certain conditions.\n\n4.0.1 COUNTIFS AVERAGEIFS SUMIFS MAXIFS MINIFS\n#1 find out the number of students who major in finance and get less than 60 in test1\n#2 find out the number of students who get between 80 and 90 in test 4 (exclusive of 80 and 90)?\n#3 find out the average of test 3 of all students who major in management\n#4 find out the average of test 3 of all students who major in management and who get at least 60 in test 2\n#5 find out the average of test 1 score of all students who major in management or marketing\n#6 find out the number of students whose test 2 score is either more than 80 or less than 50",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>02-summary_statstics_functions</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/04-pivot_table.html",
+    "href": "chapters/04-pivot_table.html",
+    "title": "5  Pivot Table",
+    "section": "",
+    "text": "5.1 Pivot Table\nAn feature that helps you to summarize (sum, average, count, max, min, etc) your data based on different dimensions.\nIt is the most basic example of the idea of slice-N-dice your data in business analytics.\nThe starting file is EastnorthcentralFT_workers.xlsx\nAnswer the following questions using Pivot tables.\n#1 find out the average yearly earnings of workers from each race\n#2 find out the average yearly earnings of workers from each race and from each state\n#3 find out the average yearly earnings and number of of workers from each race\n#4 find out the average years of education of workers from Michigan and Ohio together\n#5 find out the average yearly earnings of workers born in each month of the year",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Pivot Table</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/04-pivot_table.html#key-take-way-on-pivot-table",
+    "href": "chapters/04-pivot_table.html#key-take-way-on-pivot-table",
+    "title": "5  Pivot Table",
+    "section": "5.2 key take-way on Pivot Table",
+    "text": "5.2 key take-way on Pivot Table\n#1 Before making a pivot table, think of the following three concetps:\n\nwhat is the value you try to summarize\nwhat are the dimentions you would like to summarize the data by\nhow would you like to summarize the data(sum or average or…)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Pivot Table</span>"
     ]
   }
 ]
