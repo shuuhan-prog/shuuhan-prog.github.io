@@ -1,0 +1,35 @@
+---
+title: "Pivot Table"
+format: html
+---
+
+## Pivot Table
+
+An feature that helps you to summarize (sum, average, count, max, min, etc) your data based on different dimensions.
+
+It is the most basic example of the idea of slice-N-dice your data in business analytics.
+
+The starting file is EastnorthcentralFT_workers.xlsx
+
+Answer the following questions using Pivot tables.
+
+#1 find out the average yearly earnings of workers from each race
+
+#2 find out the average yearly earnings of workers from each race and from each state
+
+#3 find out the average yearly earnings and number of of workers from each race
+
+#4 find out the average years of education of workers from Michigan and Ohio together
+
+#5 find out the average yearly earnings of workers born in each month of the year
+
+## key take-way on Pivot Table
+
+#1 Before making a pivot table, think of the following three concetps:
+
+-   what is the value you try to summarize
+
+-   what are the dimentions you would like to summarize the data by
+
+-   how would you like to summarize the data(sum or average or...)
+
