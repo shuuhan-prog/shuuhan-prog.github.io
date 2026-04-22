@@ -118,5 +118,35 @@
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Pivot Table</span>"
     ]
+  },
+  {
+    "objectID": "chapters/04-pivot_table.html#database",
+    "href": "chapters/04-pivot_table.html#database",
+    "title": "5  Introduction to Database",
+    "section": "",
+    "text": "5.1.1 Tables\na collection of records on an object you would like to save data about, such as customer, contract, product, employee…",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction to Database</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-database.html",
+    "href": "chapters/05-database.html",
+    "title": "6  Introduction to Database",
+    "section": "",
+    "text": "6.1 Database\nDatabase is the center of how organizations manage data these days. On one hand, it is connected to various applications to save data on customers, transactions and internal operations; on the other hand, it is the source for various business analytics applications to draw data from.\nTechnically, database is a collection of realted tables.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introduction to Database</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-database.html#database",
+    "href": "chapters/05-database.html#database",
+    "title": "6  Introduction to Database",
+    "section": "",
+    "text": "6.1.1 Tables\na collection of records on an object you would like to save data about, such as customer, contract, product, employee…",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introduction to Database</span>"
+    ]
   }
 ]

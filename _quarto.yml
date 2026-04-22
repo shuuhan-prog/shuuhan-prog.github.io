@@ -13,6 +13,7 @@ book:
     - chapters/02-summary_statstics_functions.qmd
     - chapters/03-dashboard_xlookup.qmd
     - chapters/04-pivot_table.qmd
+    - chapters/05-database.qmd
   
 
 format:

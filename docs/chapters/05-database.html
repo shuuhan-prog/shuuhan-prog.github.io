@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>5&nbsp; Pivot Table – Business Analytics</title>
+<title>6&nbsp; Introduction to Database – Business Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../chapters/05-database.html" rel="next">
-<link href="../chapters/03-dashboard_xlookup.html" rel="prev">
+<link href="../chapters/04-pivot_table.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -82,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/04-pivot_table.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Pivot Table</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/05-database.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Introduction to Database</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -133,13 +132,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/04-pivot_table.html" class="sidebar-item-text sidebar-link active">
+  <a href="../chapters/04-pivot_table.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Pivot Table</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/05-database.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/05-database.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Introduction to Database</span></span></a>
   </div>
 </li>
@@ -153,8 +152,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#pivot-table" id="toc-pivot-table" class="nav-link active" data-scroll-target="#pivot-table"><span class="header-section-number">5.1</span> <strong>Pivot Table</strong></a></li>
-  <li><a href="#key-take-way-on-pivot-table" id="toc-key-take-way-on-pivot-table" class="nav-link" data-scroll-target="#key-take-way-on-pivot-table"><span class="header-section-number">5.2</span> <strong>key take-way on Pivot Table</strong></a></li>
+  <li><a href="#database" id="toc-database" class="nav-link active" data-scroll-target="#database"><span class="header-section-number">6.1</span> Database</a>
+  <ul class="collapse">
+  <li><a href="#tables" id="toc-tables" class="nav-link" data-scroll-target="#tables"><span class="header-section-number">6.1.1</span> Tables</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -163,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Pivot Table</span></h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Introduction to Database</span></h1>
 </div>
 
 
@@ -180,28 +181,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="pivot-table" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="pivot-table"><span class="header-section-number">5.1</span> <strong>Pivot Table</strong></h2>
-<p>An feature that helps you to summarize (sum, average, count, max, min, etc) your data based on different dimensions.</p>
-<p>It is the most basic example of the idea of slice-N-dice your data in business analytics.</p>
-<p>The starting file is EastnorthcentralFT_workers.xlsx</p>
-<p>Answer the following questions using Pivot tables.</p>
-<p>#1 find out the average yearly earnings of workers from each race</p>
-<p>#2 find out the average yearly earnings of workers from each race and from each state</p>
-<p>#3 find out the average yearly earnings and number of of workers from each race</p>
-<p>#4 find out the average years of education of workers from Michigan and Ohio together</p>
-<p>#5 find out the average yearly earnings of workers born in each month of the year</p>
+<section id="database" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="database"><span class="header-section-number">6.1</span> Database</h2>
+<p>Database is the center of how organizations manage data these days. On one hand, it is connected to various applications to save data on customers, transactions and internal operations; on the other hand, it is the source for various business analytics applications to draw data from.</p>
+<p>Technically, database is a collection of realted tables.</p>
+<section id="tables" class="level3" data-number="6.1.1">
+<h3 data-number="6.1.1" class="anchored" data-anchor-id="tables"><span class="header-section-number">6.1.1</span> Tables</h3>
+<p>a collection of records on an object you would like to save data about, such as customer, contract, product, employee…</p>
+
+
 </section>
-<section id="key-take-way-on-pivot-table" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="key-take-way-on-pivot-table"><span class="header-section-number">5.2</span> <strong>key take-way on Pivot Table</strong></h2>
-<p>#1 Before making a pivot table, think of the following three concetps:</p>
-<ul>
-<li><p>what is the value you try to summarize</p></li>
-<li><p>what are the dimentions you would like to summarize the data by</p></li>
-<li><p>how would you like to summarize the data(sum or average or…)</p></li>
-</ul>
-
-
 </section>
 
 </main> <!-- /main -->
@@ -606,14 +595,11 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/03-dashboard_xlookup.html" class="pagination-link" aria-label="creating BA dashboard using XLOOKUP">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">creating BA dashboard using XLOOKUP</span></span>
+      <a href="../chapters/04-pivot_table.html" class="pagination-link" aria-label="Pivot Table">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Pivot Table</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/05-database.html" class="pagination-link" aria-label="Introduction to Database">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Introduction to Database</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

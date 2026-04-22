@@ -1,0 +1,14 @@
+---
+title: "Introduction to Database"
+format: html
+---
+
+## Database
+
+Database is the center of how organizations manage data these days. On one hand, it is connected to various applications to save data on customers, transactions and internal operations; on the other hand, it is the source for various business analytics applications to draw data from.
+
+Technically, database is a collection of realted tables.
+
+### Tables
+
+a collection of records on an object you would like to save data about, such as customer, contract, product, employee...
